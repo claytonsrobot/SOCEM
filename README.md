@@ -20,7 +20,7 @@ OF LODGING RESISTANCE IN CROPS. US patent application 17/465,623. File September
 
 **objects3D.zip:** This .zip file contains .FBX files that retain a color-gradient and can be viewed using Microsoft 3D Viewer or a similar application. These are 3D models that provide insight into SOCEM performance by showing all 2021 data. There is a file for raw force data and a file for processed flexural rigidity data.
 
-**code_MATLAB_STLgeneration.zip & code_Python_Blender_3Dmodeling.zip:** These .zip files contain code that can be used to generate 3D rendering of SOCEM data, as shown in **objects3D.zip:**. 
+**code_MATLAB_STLgeneration.zip & code_Python_Blender_3Dmodeling.zip:** These .zip files contain code that can be used to generate 3D rendering of SOCEM data, as shown in **objects3D.zip**. The MATLAB scripts generate STL files, which are imported by Python and then distributed in three dimensions using Blender Python, with labels. A color gradient is applied, the procedural colors are baked, and then an FBX file is exported. 
 
 **SPuD CAD 1-4:** Github's file size limitation required CAD files for the SPuD to be split between four .zip files. In order for the assemblies and main assembly (SPuD.sldasm) to open without errors all zip files must be opened and the contents should be combined into a single folder. Within these .zip files is every SolidWorks part and assembly to create the full SPuD model. The SolidWorks drawings for milled components are included as well. Some fasteners within the SPuD assembly may differ slightly (by length or head type) from those within the BOM. This is due to the limitations of our on hand selection when building the prototype. Fasteners within the model are generally considered preferable.      
 
