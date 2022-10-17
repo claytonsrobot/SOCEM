@@ -19,9 +19,11 @@ Inventors: Robertson D.J., Stubbs C., Bebee A., Bennett G.C.
 
 **code_Arduino_SOCEM.zip:** This .zip file contains folders with the full arduino code for the Arduino Uno. Some libraries may need to be downloaded to run the code. Needed Libraries and the version of them used (some may not be the lastest versions) can be found as comments in the first few rows of the Main Arduino code. 
 
-**code_MATLAB_dataImport_dataVisualization.zip:** These .zip files contain MATLAB code in the form of .M files 
+**code_MATLAB_dataImport_dataVisualization.zip:** These .zip files contain MATLAB code (.M files) used in 2020, 2021, and 2022 to import and analyze SOCEM data. These software tools are appropriate for use with the data found in **dataRaw** .zip files. These tools were used to generated the **compiled** data found in this repository. In the future, with improvements in the **StemBerry** Python interface, only **spreadsheetsToTable_v3.m** should be necessary. This applies to 2022 data.
 
 **code_MATLAB_STLgeneration.zip & code_Python_Blender_3Dmodeling.zip:** These .zip files contain code that can be used to generate 3D rendering of SOCEM data, as shown in **objects3D.zip**. The MATLAB scripts generate STL files, which are imported by Python and then distributed in three dimensions using Blender Python, with labels. A color gradient is applied, the procedural colors are baked, and then an FBX file is exported. 
+
+**dataRaw_SOCEM_2020.zip**,**dataRaw_SOCEM_2021_coreExperiment.zip**,**dataRaw_SOCEM_2022.zip**,**dataRaw_Instron_2020.zip**,**dataRaw_Instron_2021.zip**: Due to size limitations, this raw data from the SOCEM in the field and from three-point bending testing in the labratory was included in separate .zip files.
 
 **InstronMethods.zip:** This .zip file contains .im_ccyclic files which are meant to be run on BlueHill Instron data collection software, to determine the methods of automated operation for specimen testing. These methods have been optimized for testing wheat stems for hysteresis and for observing breakage, and applications extend beyond the scope of this project.
 
