@@ -27,8 +27,10 @@ Inventors: Robertson D.J., Stubbs C., Bebee A., Bennett G.C.
 
 **code_MATLAB_STLgeneration.zip & code_Python_Blender_3Dmodeling.zip:** These .zip files contain code that can be used to generate 3D rendering of SOCEM data, as shown in **objects3D.zip**. The MATLAB scripts generate STL files, which are imported by Python and then distributed in three dimensions using Blender Python, with labels. A color gradient is applied, the procedural colors are baked, and then an FBX file is exported. 
 
-**dataRaw_SOCEM_2020.zip**,**dataRaw_SOCEM_2021_coreExperiment.zip**,**dataRaw_SOCEM_2022.zip**,**dataRaw_Instron_2020.zip**,**dataRaw_Instron_2021.zip:** Due to size limitations, this raw data from the SOCEM in the field and from three-point bending testing in the labratory was included in separate .zip files.
-
 **InstronMethods.zip:** This .zip file contains .im_ccyclic files which are meant to be run on BlueHill Instron data collection software, to determine the methods of automated operation for specimen testing. These methods have been optimized for testing wheat stems for hysteresis and for observing breakage, and applications extend beyond the scope of this project.
+
+**dataRaw_SOCEM_2020.zip**,**dataRaw_SOCEM_2021_coreExperiment.zip**,**dataRaw_SOCEM_2022.zip**,**dataRaw_Instron_2020.zip**,**dataRaw_Instron_2021.zip:** Due to size limitations, this raw data from the SOCEM in the field (.csv and .xlsx files) and from three-point bending testing in the labratory (.csv files) is distributed across in separate .zip files.
+
+**dataCompiled_2020.zip**,**dataCompiled_2021_mat.zip**,**dataCompiled_2021_csv,pdf,zip.zip:** Due to size limitations, this compiled data (.mat,.csv,.pdf,.xlsx files) from the SOCEM and the Instron is distributed across separate .zip files.
 
 **thesis_ValidateSOCEM_Bennett_10142022.pdf:** A full pdf copy of my thesis which gives an overview of the backgroud for the device, step by step building instructions, and an analysis/discussion of results.   
